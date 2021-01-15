@@ -4,10 +4,12 @@
   <li>Stooge sort is a recursive sorting algorithm with a time complexity of O(n^(log 3 / log 1.5) ) = O(n^(2.7095...)). The running time of the algorithm is thus slower compared to efficient sorting algorithms, such as Merge sort, and is even slower than Bubble sort, a canonical example of a fairly inefficient and simple sort.
       <ul>
         <li>Step 1 : If value at index 0 is greater than value at last index, swap them.</li>
-        <li>Step 2:  Recursively, 
-           <ol>Stooge sort the initial 2/3rd of the array.</ol>
-           <ol>Stooge sort the last 2/3rd of the array.</ol>
-           <ol>Stooge sort the initial 2/3rd again to confirm.</ol>
+        <li>Step 2:  Recursively,
+            <ul>
+                <li>Stooge sort the initial 2/3rd of the array.</li>
+                <li>Stooge sort the last 2/3rd of the array.</li>
+                <li>Stooge sort the initial 2/3rd again to confirm.</li>
+           </ul>
         </li>     
       </ul>
   </li>

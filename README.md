@@ -5,9 +5,9 @@
       <ul>
         <li>Step 1 : If value at index 0 is greater than value at last index, swap them.</li>
         <li>Step 2:  Recursively, 
-           </ol>Stooge sort the initial 2/3rd of the array.</ol>
-           </ol>Stooge sort the last 2/3rd of the array.</ol>
-           </ol>Stooge sort the initial 2/3rd again to confirm.</ol>
+           <ol>Stooge sort the initial 2/3rd of the array.</ol>
+           <ol>Stooge sort the last 2/3rd of the array.</ol>
+           <ol>Stooge sort the initial 2/3rd again to confirm.</ol>
         </li>     
       </ul>
   </li>
